@@ -8,6 +8,7 @@ package edu.paz.DAMUnidad4Refactor;
  */
 public class DAMUnidad4Refactor {
     public static void main(String[] args) {
+        System.out.println("Comienzo de la aplicación");
         Libro objetoLibro =new Libro ("El Hereje", "Miguel Delibre", 324);
         Persona objetoPersona = new Persona("Pedro", 2);
         Informar[] miArray = new Informar[4];
