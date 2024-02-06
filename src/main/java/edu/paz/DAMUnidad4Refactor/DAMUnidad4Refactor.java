@@ -19,5 +19,7 @@ public class DAMUnidad4Refactor {
         for(i = 0; i < miArray.length;i++){
             miArray[i].informa();
         }
+        System.out.println("Modificación de mi proyecto");
+        System.out.println("Versión siguiente");
     }
 }
