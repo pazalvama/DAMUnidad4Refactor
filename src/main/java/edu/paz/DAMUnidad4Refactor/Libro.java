@@ -6,6 +6,8 @@ package edu.paz.DAMUnidad4Refactor;
 /**
  *
  * @author Paz
+ * @version 1.0
+ * 
  */
 public class Libro implements Informar{
     private String titulo;
@@ -47,7 +49,10 @@ public class Libro implements Informar{
     public void setPaginas(int paginas) {
         this.paginas = paginas;
     }
-    
+    /**
+     * @param 
+     * @return 
+     */
     void mostrarDatos(){
         System.out.println("El título del libro es " + titulo);
         System.out.println("El autor del libro es " + autor);

@@ -39,7 +39,23 @@ public class Persona implements Informar{
     public void setNumeroHermanos(int numeroHermanos) {
         this.numeroHermanos = numeroHermanos;
     }
-
+    /**
+     * 
+     * @param total_caramelos Total de caramelos a repartir
+     * @return Devuelve a cuantos caramelos toca cada hermano o hermana
+     */
+    
+    public int caramelos_por_hermano (int total_caramelos)    {
+        int total;
+        total= (total_caramelos/numeroHermanos);
+        return total;
+    }
+    
+    
+/**
+ * 
+ * @param importeMatricula Es el importe de la matrícula que tiene que pagar
+ */
     public static void setImporteMatricula(int importeMatricula) {
     }
 
